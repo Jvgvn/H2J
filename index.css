@@ -1,0 +1,148 @@
+
+h4{
+	
+    background-image: url(http://flags.fmcdn.net/data/flags/w580/fr.png);
+    color: black;
+    font-family: futura;
+    background-size: cover;
+    text-align: center;
+    font-size: 15
+    font-weight: thin;
+    margin-bottom: 0;
+
+}
+
+body{
+}
+
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.my-container {
+    max-width:100%;
+}
+
+.navbar a {
+    display: block;
+    color: rgb(94,91,91);
+    text-align: center;
+    padding:0;
+    text-decoration: none;
+    font-family: futura
+    padding-top: 0;
+    padding-right: 0;
+    font-size: 9;
+    height: 64;
+    width: 1440;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+
+.fond1 {
+    margin-right: 0;
+    padding-right: : 0;
+}
+
+.col-12{
+    padding: 0;
+}
+
+.col-1{
+    font-size: 9;
+}
+
+.col-2{
+    font-size: 9;
+}
+
+table {
+  position: relative;
+}
+
+#text {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    left: 150px;
+    top: 350px;
+}
+
+#banner{
+    text-align : center;
+    background-image: url(https://scontent-cdt1-1.xx.fbcdn.net/v/t35.0-12/22790670_1693824887327594_799238037_o.png?oh=4b69fd27cc593c15f6099a4e287501a3&oe=59F3B868);
+    background-size: cover;
+    padding: 150px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+  color: white;
+  font-size: 50px;
+  font-family: futura;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: futura;
+}
+
+#title{
+    padding-left: 419px;
+}
+
+#btn-secondary{
+    color: white;
+    background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 44%, rgba(246,41,12,1) 62%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+
+}
+
+#bottle1{
+    margin-top: 62px;
+}
+
+#bottle2{
+    width: 60px;
+    margin-top: 34px;
+}
+
+#bottle3{
+    margin-top: 21px;
+}
+
+#bouteille{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#bouteille h1{
+    font-size: 105px;
+}
+
+#bouteille h2{
+    font-size: 60px;
+}
+/*
+#banner2{
+    background-image: url(https://scontent-cdt1-1.xx.fbcdn.net/v/t34.0-12/22782102_1693724834004266_1208047478_n.png?oh=5bb8a02028314633cf5ccdb171efa0ea&oe=59F29E66);
+
+}
+
+#banner2 h1{
+    margin-left: 1000px;
+}
+
+#banner2 h2{
+    margin-left: 1000px;
+}*/
