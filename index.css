@@ -36,12 +36,29 @@ body{
     padding-top: 0;
     padding-right: 0;
     font-size: 9;
-    height: 64;
-    width: 1440;
+
+}
+
+.bottles {
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+
 }
 
 .logo img {
-    max-width: 100%;
+    width: 70px;
+}
+
+.bar {  
+    width: 100vw;
 }
 
 
@@ -50,17 +67,6 @@ body{
     padding-right: : 0;
 }
 
-.col-12{
-    padding: 0;
-}
-
-.col-1{
-    font-size: 9;
-}
-
-.col-2{
-    font-size: 9;
-}
 
 table {
   position: relative;
@@ -78,11 +84,12 @@ table {
 
 #banner{
     text-align : center;
-    background-image: url(https://scontent-cdt1-1.xx.fbcdn.net/v/t35.0-12/22790670_1693824887327594_799238037_o.png?oh=4b69fd27cc593c15f6099a4e287501a3&oe=59F3B868);
     background-size: cover;
-    padding: 150px;
     color: white;
     text-shadow: 1px 1px 5px black;
+    background-image: url(images/back.png);
+    padding: 150px 50px 150px 0px;
+    
 }
 
 #banner h1 {
@@ -98,27 +105,31 @@ table {
   font-family: futura;
 }
 
-#title{
-    padding-left: 419px;
+.alignement {
+    display: flex;
+    justify-content: space-between;
 }
 
-#btn-secondary{
-    color: white;
-    background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 44%, rgba(246,41,12,1) 62%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
-
+.btn-jecommence {
+    width : 150px;
 }
 
 #bottle1{
-    margin-top: 184px;
+    margin-top: 450px;
+    text-align: center;
+
 }
 
 #bottle2{
     width: 60px;
-    margin-top: 132px;
+    margin-top: 400px;
+    text-align: center;
+
 }
 
 #bottle3{
-    margin-top: 61px;
+    text-align: center;
+    margin-bottom: 300px;
 }
 
 #bouteille{
@@ -132,6 +143,26 @@ table {
 
 #bouteille h2{
     font-size: 60px;
+}
+
+button {
+    width: 100px 100px 100px 100px ; 
+    border-radius: 50px ; 
+    /*margin-left: 135px;*/
+    font-family: futura;
+
+}
+
+p {
+    text-align: center;
+    font-family: futura ;
+    font-size: 30px
+}
+
+.price {
+    text-align: center;
+    font-family: futura;
+    font-size: 30px;
 }
 /*
 #banner2{
